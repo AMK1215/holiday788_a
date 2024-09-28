@@ -11,6 +11,8 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Yajra\DataTables\Facades\DataTables;
+
 
 class ReportController extends Controller
 {
@@ -237,5 +239,3 @@ class ReportController extends Controller
         reports.status = '101';
 
     */
-
-
