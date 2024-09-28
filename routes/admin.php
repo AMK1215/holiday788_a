@@ -132,12 +132,19 @@ Route::group([
     Route::get('transer-log', [TransferLogController::class, 'index'])->name('transferLog');
     Route::get('transferlog/{id}', [TransferLogController::class, 'transferLog'])->name('transferLogDetail');
 
-    Route::group(['prefix' => 'report'], function () {
+     Route::group(['prefix' => 'report'], function () {
         Route::get('index', [ReportController::class, 'index'])->name('report.index');
         Route::get('view/{user_id}', [ReportController::class, 'view'])->name('report.view');
         Route::get('show/{proudct_code}', [ReportController::class, 'show'])->name('report.show');
         Route::get('detail/{user_id}', [ReportController::class, 'detail'])->name('report.detail');
     });
+
+    // Route::group(['prefix' => 'report'], function () {
+    //     Route::get('index', [ReportController::class, 'index'])->name('report.index');
+    //     Route::get('view/{user_id}', [ReportController::class, 'view'])->name('report.view');
+    //     Route::get('show/{proudct_code}', [ReportController::class, 'show'])->name('report.show');
+    //     Route::get('detail/{user_id}', [ReportController::class, 'detail'])->name('report.detail');
+    // });
 
     Route::group(['prefix' => 'bonu'], function () {
         Route::get('countindex', [BonusController::class, 'index'])->name('bonu_count.index');
