@@ -18,7 +18,7 @@ ADD COLUMN agent_id INT(11) AFTER name;
 
 sudo chmod -R 775 /var/www/html/bossi_a/storage/logs/
 sudo chown -R www-data:www-data /var/www/html/bossi_a/storage/logs
-435803
+451473
 
 bossi ပြင်ရန် lists
 
