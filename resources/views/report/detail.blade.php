@@ -53,7 +53,12 @@
         }
     </style>
     <section>
-        <h1>Player Detail Report</h1>
+        <h1>
+            <span>
+                <a href="{{ url('admin/report/index') }}" class="btn btn-primary">Back</a>
+            </span>
+            Player Detail Report
+        </h1>
         <br>
         <table class="table table-bordered data-table">
             <thead>
