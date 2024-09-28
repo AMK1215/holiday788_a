@@ -8,6 +8,7 @@ crontab -e
 
 * * * * * cd /var/www/holiday788_a && php artisan schedule:run >> /dev/null 2>&1
 
+composer require predis/predis
 
 php artisan make:migration add_agent_link_to_users_table --table=users
 
