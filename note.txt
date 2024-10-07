@@ -2,11 +2,11 @@
 php -r "file_put_contents('/var/www/html/bossi_a/storage/logs/laravel.log', '');"
 // created dev branch for kzt
 
-tail -f /var/www/holiday788_a/storage/logs/laravel.log
+tail -f /var/www/html/holiday788_a/storage/logs/laravel.log
 
 crontab -e
 
-* * * * * cd /var/www/holiday788_a && php artisan schedule:run >> /dev/null 2>&1
+* * * * * cd /var/www/html/holiday788_a && php artisan schedule:run >> /dev/null 2>&1
 
 composer require predis/predis
 

@@ -8,7 +8,7 @@
                         document.write(new Date().getFullYear())
                     </script>,
                     by
-                    <a href="https://luckym.pro/" target="_blank" class="font-weight-bold" target="_blank">Holiday788
+                    <a href="https://holiday788.pro/" target="_blank" class="font-weight-bold" target="_blank">TTTGaming
                         Slot</a>
                 </div>
             </div>

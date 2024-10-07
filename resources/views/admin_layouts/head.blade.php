@@ -7,7 +7,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="{{ 'admin_app/assets/img/apple-icon.png' }}">
     <link rel="icon" href="{{ asset('/assets/img/main_logo.png') }}">
     <title>
-        Holiday788 Slot
+        TTTGaming Slot
     </title>
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css"
