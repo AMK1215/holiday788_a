@@ -22,9 +22,8 @@ class DepositRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'agent_payment_type_id' => ['required', 'exists:payment_types,id'],
+            'agent_payment_type_id' => ['required', 'exists:banks,id'],
             'amount' => ['required', 'integer', 'min:1000'],
-            //'image' => ['required', 'file', 'image', 'mimes:jpg,png,jpeg', 'max:2048'],
             'image' => ['required', 'file', 'image', 'mimes:jpg,png,jpeg'],
             'refrence_no' => ['required', 'digits:6'],
         ];

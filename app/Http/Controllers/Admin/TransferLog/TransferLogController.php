@@ -36,8 +36,8 @@ Gate::denies('make_transfer') || !$this->ifChildOfParent(request()->user()->id, 
         $transferLogs = Auth::user()->transactions()->with('targetUser')
             ->whereIn('transactions.type', ['withdraw', 'deposit'])
             ->whereIn('transactions.name', ['credit_transfer', 'debit_transfer'])
-            ->where('target_user_id', $id)->latest()->paginate();
-
+            ->where('target_user_id', $id)->get();
+        
         return view('admin.trans_log.detail', compact('transferLogs'));
     }
 }
