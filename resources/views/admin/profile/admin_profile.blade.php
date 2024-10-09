@@ -20,6 +20,10 @@
                             <label class="form-label">Phone No</label>
                             <input type="text" class="form-control" name="phone" value="{{$user->phone}}">
                         </div>
+                        <div class="input-group input-group-outline my-4">
+                            <label class="form-label">Phone No</label>
+                            <input type="text" class="form-control" name="phone" value="{{$user->referral_code}}" readonly>
+                        </div>
                         <button class="btn bg-gradient-dark btn-sm float-end mt-6 mb-0" type="submit">Update</button>
                     </form>
                 </div>

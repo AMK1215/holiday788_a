@@ -8,8 +8,11 @@
                         document.write(new Date().getFullYear())
                     </script>,
                     by
-                    <a href="https://holiday788.pro/" target="_blank" class="font-weight-bold" target="_blank">TTTGaming
-                        Slot</a>
+                    <a href="https://holiday788.pro/" target="_blank" class="font-weight-bold" target="_blank">
+                      <h1><strong>
+                      TTTGAMING  
+                      </strong></h1>
+                        </a>
                 </div>
             </div>
             {{-- <div class="col-lg-6">
