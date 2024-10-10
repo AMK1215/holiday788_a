@@ -208,7 +208,7 @@
     <td id=""> ${url}</td>
   </tr>
   <tr>
-    <td>Username</td>
+    <td>Phone</td>
     <td id="tusername"> ${name}</td>
   </tr>
   <tr>

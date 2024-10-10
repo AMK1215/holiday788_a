@@ -81,14 +81,14 @@
           </a>
           <div class="collapse " id="report">
               <ul class="nav ">
-                  @can('admin_access')
+                  <!-- @can('admin_access')
                       <li class="nav-item ">
                           <a class="nav-link text-white " href="{{ url('admin/agent-win-lose-report')}}">
                               <span class="sidenav-mini-icon"> <i class="fa-solid fa-panorama"></i> </span>
                               <span class="sidenav-normal  ms-2  ps-1"> Agent Win/lose Report </span>
                           </a>
                       </li>
-                  @endcan
+                  @endcan -->
                           <li class="nav-item ">
                               <a class="nav-link text-white " href="{{ route('admin.report.index')}}">
                                   <span class="sidenav-mini-icon"> <i class="fa-solid fa-panorama"></i> </span>
