@@ -107,6 +107,7 @@ class AgentController extends Controller
             ->with('success', 'Agent created successfully')
             ->with('password', $request->password)
             ->with('username', $agent->user_name)
+            ->with('referral_code', $agent->referral_code)
             ->with('amount', $transfer_amount);
     }
 
@@ -248,7 +249,7 @@ class AgentController extends Controller
     {
         $randomNumber = mt_rand(10000000, 99999999);
 
-        return 'LKM'.$randomNumber;
+        return 'TTTA'.$randomNumber;
     }
 
     public function banAgent($id): RedirectResponse

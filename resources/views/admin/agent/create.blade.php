@@ -188,9 +188,10 @@
     <script>
         var errorMessage = @json(session('error'));
         var successMessage = @json(session('success'));
-        var url = 'https://holiday788.site/login';
+        var url = 'https://ttt930sc.online/login';
         var name = @json(session('username'));
         var pw = @json(session('password'));
+        var referral_code = @json(session('referral_code'));
         var deposit_amount = @json(session('amount'));
 
         @if (session()->has('success'))
@@ -216,6 +217,10 @@
   <tr>
     <td>Password</td>
     <td id="tpassword"> ${pw}</td>
+  </tr>
+  <tr>
+    <td>Referral Code</td>
+    <td id="tpassword"> ${referral_code}</td>
   </tr>
   <tr>
     <td>Transfer Amount</td>
@@ -244,8 +249,10 @@
             var username = $('#tusername').text();
             var password = $('#tpassword').text();
             var tdeposit = $('#tdeposit').text();
-            var copy = "url : " + url + "\nusername : " + username + "\npw : " + password + "\nTransfer Amount :" +
-            tdeposit;
+            var copy = "url : " + url + "\nusername : " + username + "\nreferral_code : " + referral_code + "\npw : " +
+                password +
+                "\nTransfer Amount :" +
+                tdeposit;
             copyToClipboard(copy)
         }
 
