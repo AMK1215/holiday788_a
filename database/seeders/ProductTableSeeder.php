@@ -228,7 +228,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'Big Gaming',
                 'short_name' => 'BG',
                 'order' => 10,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1007',
