@@ -65,7 +65,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'Spade Gaming',
                 'short_name' => 'SG',
                 'order' => 16,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1035',
