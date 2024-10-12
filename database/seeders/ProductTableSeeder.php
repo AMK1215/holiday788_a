@@ -50,7 +50,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'WM Casino',
                 'short_name' => 'WM Casino',
                 'order' => 14,
-                'status' => 1
+                'status' => 0
 
             ],
             [
@@ -65,7 +65,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'Spade Gaming',
                 'short_name' => 'SG',
                 'order' => 16,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1035',
@@ -80,7 +80,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'PlayStar',
                 'short_name' => 'PlayStar',
                 'order' => 6,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1056',
@@ -115,7 +115,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'Play Pearls',
                 'short_name' => 'Play Pearls',
                 'order' => 22,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1064',
@@ -164,7 +164,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'GENESIS',
                 'short_name' => 'GENESIS',
                 'order' => 30,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1097',
@@ -199,14 +199,14 @@ class ProductTableSeeder extends Seeder
                 'name' => 'Netent',
                 'short_name' => 'Netent',
                 'order' => 34,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1111',
                 'name' => 'Gaming World',
                 'short_name' => 'GamingWorld',
                 'order' => 35,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1001',
@@ -221,14 +221,14 @@ class ProductTableSeeder extends Seeder
                 'name' => 'Evolution Gaming',
                 'short_name' => 'EG',
                 'order' => 37,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1004',
                 'name' => 'Big Gaming',
                 'short_name' => 'BG',
                 'order' => 10,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1007',
@@ -292,7 +292,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'YesGetRich',
                 'short_name' => 'YesgetRich',
                 'order' => 43,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1089',
@@ -322,7 +322,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'Mr Slotty',
                 'short_name' => 'MrSlotty',
                 'order' => 48,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1110',
@@ -336,7 +336,7 @@ class ProductTableSeeder extends Seeder
                 'name' => 'SmartSoft',
                 'short_name' => 'SmartSoft',
                 'order' => 9,
-                'status' => 1
+                'status' => 0
             ],
 
             [
@@ -344,13 +344,27 @@ class ProductTableSeeder extends Seeder
                 'name' => 'Red Tiger',
                 'short_name' => 'RTiger',
                 'order' => 50,
-                'status' => 1
+                'status' => 0
             ],
             [
                 'code' => '1002',
                 'name' => 'Evolution Gaming',
                 'short_name' => 'Evolution',
                 'order' => 51,
+                'status' => 1
+            ],
+            [
+                'code' => '1151',
+                'name' => 'FastSpin',
+                'short_name' => 'FastSpin',
+                'order' => 52,
+                'status' => 1
+            ],
+            [
+                'code' => '1146',
+                'name' => 'NoLimitCity',
+                'short_name' => 'NoLimitCity',
+                'order' => 53,
                 'status' => 1
             ],
         ];

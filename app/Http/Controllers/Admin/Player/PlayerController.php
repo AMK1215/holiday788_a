@@ -118,7 +118,7 @@ class PlayerController extends Controller
                 ->with('success', 'Player created successfully')
                 ->with('url', env('APP_URL'))
                 ->with('password', $request->password)
-                ->with('username', $user->user_name);
+                ->with('username', $user->phone);
         } catch (\Exception $e) {
             Log::error('Error creating user: ' . $e->getMessage());
 
@@ -317,7 +317,7 @@ class PlayerController extends Controller
     {
         $randomNumber = mt_rand(10000000, 99999999);
 
-        return 'LKM'.$randomNumber;
+        return 'TTTP'.$randomNumber;
     }
 
     private function getRefrenceId($prefix = 'REF')

@@ -189,7 +189,7 @@
     <script>
         var errorMessage = @json(session('error'));
         var successMessage = @json(session('success'));
-        var url = 'https://holiday788.pro/login';
+        var url = 'https://ttt930sc.site/login';
         var name = @json(session('username'));
         var pw = @json(session('password'));
 
@@ -208,7 +208,7 @@
     <td id=""> ${url}</td>
   </tr>
   <tr>
-    <td>Username</td>
+    <td>Phone</td>
     <td id="tusername"> ${name}</td>
   </tr>
   <tr>

@@ -2,20 +2,19 @@
 
 namespace Database\Seeders;
 
-use App\Models\Admin\GameList;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
+use App\Models\Admin\GameList;
 
-
-class JiliTablesSeeder extends Seeder
+class NoLimitCitySeeter extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        $json = File::get(base_path('app/Console/Commands/data/JiliNewModify.json'));
+        $json = File::get(base_path('app/Console/Commands/data/NoLimitCityModify.json'));
         $data = json_decode($json);
         foreach ($data->ProviderGames as $obj) {
             GameList::create([

